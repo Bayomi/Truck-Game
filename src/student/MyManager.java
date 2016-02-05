@@ -21,10 +21,6 @@ public class MyManager extends Manager {
 	private HashMap<Truck, ArrayList<Parcel>> truckData = new HashMap<Truck, ArrayList<Parcel>>();
 		
 			
-	/**TO DO LIST:
-	 * 1. Check if Dijkstra is working.
-	 * 2. Parcels are not being picked up, delivered, game doesn't end and we're fucked.
-	 */
 
 	@Override
 	public void run() {
